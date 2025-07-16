@@ -78,7 +78,7 @@ def get_uuids_from_file():
 def replace_memory(process_name, org):
     import pymem.process
 
-    spoofed_uuid = uuid.uuid4()
+    spoofed_uuid = str(uuid.uuid4())
     target = org.encode('utf-8')
     bytes = spoofed_uuid.encode('utf-8')
 
