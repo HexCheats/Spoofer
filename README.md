@@ -1,3 +1,1 @@
-**Generates random id's by default To have a certain id change ** 
-spoofed_uuid = uuid.uuid4()
-**with** spoofed_uuid = "ANY_UUID"
+**Generates random IDs by default. To use a specific ID, replace** `spoofed_uuid = uuid.uuid4()` **with** `spoofed_uuid = "ANY_UUID"`
